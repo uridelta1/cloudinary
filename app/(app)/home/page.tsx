@@ -73,12 +73,13 @@
 // }
 
 
-"use client"
+
 
 import React, {useState, useEffect, useCallback} from "react";
 import axios from "axios";
 import VideoCard from "../../../components/videoCard";
 import { Video } from "../../../generated/prisma";
+// import { prisma } from "../../../lib/prisma";
 
 
 export default function Home() {
