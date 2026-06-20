@@ -77,8 +77,8 @@
 
 import React, {useState, useEffect, useCallback} from "react";
 import axios from "axios";
-import VideoCard from "@/components/videoCard";
-import { Video } from "@/generated/prisma";
+import VideoCard from "../../../components/videoCard";
+import { Video } from "../../../generated/prisma";
 
 
 export default function Home() {
